@@ -14,4 +14,4 @@ jobs:
         env: 
           LINK_KEY: ${{secrets.LINK}}
       - name: start oneline code
-        run: bash start.sh
+        run: bash checker.sh 
